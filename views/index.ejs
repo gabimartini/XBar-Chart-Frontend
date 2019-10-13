@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+</head>
+<body>
+   
+        <div id='div2'>
+
+            </div>
+    <div id='div1'>
+            <form role="form" id="form-number-group">
+                
+                <div class="form-group">
+                <h1>XBar-R Chart</h1>
+                </div>
+                <div class = "form-number"></div>
+                <label for="SpoolNumber" id='Spool'>Spool Number</label>
+                <input type="text" required class="form-control" id="exampleSpool1" placeholder="Type Spool Number" name="first_Spool">
+                <label for="exampleNumber" id='num'>First Number</label>
+                <input type="text" required class="form-control" id="exampleNumber1" placeholder="Type First Number" name="first_number">
+                
+                
+                </div>
+                <div class = "form-number"></div>
+                <label for="SpoolNumber" id='Spool'>Spool Number</label>
+                <input type="text" required class="form-control" id="exampleSpool2" placeholder="Type Spool Number" name="second_Spool">
+                <label for="exampleNumber" id='num'>Second Number</label>
+                <input type="text" required class="form-control" id="exampleNumber2" placeholder="Type Second Number" name="second_number">
+                </div>
+                <div class = "form-number"></div>
+                <label for="SpoolNumber" id='Spool'>Spool Number</label>
+                <input type="text" required class="form-control" id="exampleSpool3" placeholder="Type Spool Number" name="thirth_Spool">
+                <label for="exampleNumber" id='num'>Thrith Number</label>
+                <input type="text" required class="form-control" id="exampleNumber3" placeholder="Type Thirth Number" name="thirth_number">
+                </div>
+                <div class = "form-number"></div>
+                <label for="SpoolNumber" id='Spool'>Spool Number</label>
+                <input type="text" required class="form-control" id="exampleSpool4" placeholder="Type Spool Number" name="forth_Spool">
+                <label for="exampleNumber" id='num'>Forth Number</label>
+                <input type="text" required class="form-control" id="exampleNumber4" placeholder="Type Forth Number" name="forth_number">
+                </div>
+                <div class="box-footer">
+                <button type="submit" class="btn btn-success" id="btn1" onclick="submitChart()">Save</button>
+                <button type="reset" class="btn btn-success" id="btn2" onclick="resetChart()">New Chart</button>
+                </div>
+                <div id='btn-div'>
+                <button type="button" class="btn btn-success" id="btn3" onclick="data()">Data</button>
+                
+                </div>
+
+                                                          
+                    </form>
+                
+    
+</div>
+
+
+<div class="container" id = 'div3'>
+        <canvas id="myChart"></canvas> 
+        </div>
+
+<div class="container" id = 'div4'>
+<canvas id="myChart2"></canvas> 
+</div>
+
+
+
+
+
+
+<script src="classe/httpRequest.js"></script>
+<script src="classe/download.js"></script>
+<script src="index.js"></script>
+
+
+</body>
+
+
